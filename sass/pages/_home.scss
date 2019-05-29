@@ -1,0 +1,58 @@
+body {
+    
+        background-color: $color-gray-dark-3;
+}
+
+
+
+.secondry-header {
+        font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    background-image: linear-gradient(to right, rgba($color-test, .5), $color-test);
+        -webkit-background-clip: text;
+        color: transparent;
+    letter-spacing: .2rem;
+//    transition: .2s;
+        
+        margin: 4rem 41rem;
+        margin-top: 13rem;
+    }
+
+
+.test {
+//     margin-left: 6rem;
+//        margin-right: 6rem;
+//         width: 90vw;
+//         height: 190vh;
+    
+    
+     background-color: $color-gray-light-3;
+ 
+    -webkit-clip-path: polygon(50% 0%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
+      clip-path: polygon(50% 0%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
+        
+        
+    }
+
+
+.photo {
+    display: block;
+    width: 34rem;
+   
+    margin-left: 47rem;
+    margin-bottom : 5rem;
+    opacity: 33333;
+    
+    
+}
+.p {
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 1rem;
+        column-count: 2;
+        column-gap: 35rem; //1em = 14px;
+       // column-rule: 1px solid $color-gray-light-3;
+}
