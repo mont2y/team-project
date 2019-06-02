@@ -4,24 +4,29 @@
   box-sizing: inherit; }
 
 html {
-  font-size: 62.5%; }
-  @media only screen and (max-width: 75em) {
-    html {
-      font-size: 56.25%; } }
-  @media only screen and (max-width: 56.25em) {
-    html {
-      font-size: 50%; } }
-  @media only screen and (max-width: 112.5em) {
-    html {
-      font-size: 75%; } }
+  font-size: 62.5%;
+  /* @include respond(tab-land) {
+        font-size: 56.25%;
+    }
+    
+    
+    @include respond(tab-port) {
+        font-size: 50%;
+    }
+    
+    
+    @include respond(big-desk) {
+        font-size: 75%;
+    }  */ }
 
 body {
   box-sizing: border-box; }
 
-::selection {
-  background-color: #000;
-  color: #fff; }
-
+/* ::selection {
+    
+    background-color: #000;
+    color: $color-withe;
+}  */
 .u-center-text {
   text-align: center; }
 
@@ -82,3 +87,66 @@ body {
     width: calc( 2 * ( (100% - 3 * 6rem)/4) + 6rem); }
   .row .col-3-of-4 {
     width: calc( 3 * ( (100% - 3 * 6rem)/4) + 2 * 6rem); }
+
+body {
+  background-color: #ecf0f1; }
+
+.div-comp-img {
+  position: relative;
+  text-align: center; }
+
+.comp-img {
+  padding-top: 10rem;
+  padding-right: 3rem; }
+
+.header {
+  height: 96vh;
+  width: auto;
+  position: relative;
+  padding-bottom: 10rem;
+  text-align: center;
+  margin: 5rem; }
+
+.header-img {
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/back-header.jpg);
+  background-size: cover;
+  background-position: top;
+  position: absolute;
+  padding: 0px;
+  clip-path: polygon(100% 0%, 100% 0, 100% 100%, 50% 65%, 0 100%, 0 0); }
+
+.secondry-header {
+  position: relative;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to right, rgba(14, 56, 107, 0.5), #0E386B);
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: .2rem;
+  margin: 4rem 41rem;
+  margin-top: 13rem; }
+
+SS
+.test {
+  background-color: #eee;
+  -webkit-clip-path: polygon(50% 0%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
+  clip-path: polygon(50% 0%, 100% 38%, 100% 100%, 0 100%, 0% 38%); }
+
+.photo {
+  display: block;
+  width: 34rem;
+  margin-left: 47rem;
+  margin-bottom: 5rem;
+  opacity: 33333; }
+
+.p {
+  font-size: 1.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 1rem;
+  column-count: 2;
+  column-gap: 35rem; }
