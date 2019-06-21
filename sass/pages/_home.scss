@@ -3,13 +3,22 @@ body {
     background-color: #ecf0f1;
 }
 .div-comp-img{
+    width:100% ; 
 position: relative ;  
 text-align: center ; 
 }
+.logo-img{
+
+
+
+}
+
+
 .comp-img {
 padding-top: 10rem; 
 padding-right: 3rem;
 }
+
 
 .header{
     height: 96vh;
@@ -28,7 +37,7 @@ padding-right: 3rem;
     position:absolute; 
     padding: 0px ; 
     clip-path: polygon(100% 0%, 100% 0, 100% 100%, 50%  65%, 0 100%, 0 0);
-    
+     
 }
 
 

@@ -92,6 +92,7 @@ body {
   background-color: #ecf0f1; }
 
 .div-comp-img {
+  width: 100%;
   position: relative;
   text-align: center; }
 
